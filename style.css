@@ -131,7 +131,7 @@ body {
 .rodape__lista {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 30px;
     list-style-type: none;
     margin-bottom: 1.5em;
 }
