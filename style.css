@@ -118,3 +118,35 @@ body {
 .lista__item {
     font-size: 32px;
 }
+
+.rodape {
+    text-align: center;
+    margin: 0 4em 1em 4em;
+}
+
+.rodape__logo {
+    margin-bottom: 3em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style-type: none;
+    margin-bottom: 1.5em;
+}
+
+.rodape__lista__item > a {
+    color: var(--cor-principal);
+    text-decoration: none;
+}
+
+.rodape__lista__item > a:hover {
+    color: rgb(91, 91, 91);
+
+}
+
+.rodape__texto {
+    margin-bottom: 1.5em;
+    color: var(--cor-secundaria);
+}
