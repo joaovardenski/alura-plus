@@ -62,6 +62,10 @@ body {
     margin-bottom: 1em;
 }
 
+.container__botao:hover {
+    background-color: #0f52a3;
+}
+
 .botao_secundario {
     background-color: transparent;
     border: 2px solid var(--cor-principal);
